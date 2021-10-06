@@ -1,12 +1,9 @@
-import Card from './useCalback/Card/Card';
-import { RegistrationForm } from './useCalback/Registration/RegistrationForm';
+import Counter from './useMemo/Counter';
 
 function App() {
   return (
     <>
-      <Card>
-        <RegistrationForm />
-      </Card>
+      <Counter />
     </>
   );
 }
